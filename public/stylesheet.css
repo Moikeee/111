@@ -2,6 +2,7 @@ body{
     font-family: Arial, sans-serif;
     background-color: #101625;
     margin: 0;
+    
 }
 
 .navbar {
@@ -49,29 +50,49 @@ h1 {
 .Image {
     display: block;
     margin: 20px auto;
-    max-width: 100%;
+    max-width: 600px;
     height: auto;
 }
 h4 {
     text-align: center;
-    margin-top: 20px;
-    color: #f8f8f8;
-    font-size: 15px;
+    margin-top: 5px;
+    color: #b51ded;
+    font-size: 25px;
     font-weight: bold;
 }
 h2 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 5px;
     color: #f8f8f8;
-    font-size: 25px;
+    font-size: 35px;
 }
 p {
     text-align: center;
+    margin-top: 5px;
+    color: #f8f8f8;
+    font-size: 20px;
+}
+.textSaBaba  {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 2px solid #7aa1e0;
+}
+.textSaBaba h1 {
+    text-align: center;
     margin-top: 20px;
     color: #f8f8f8;
-    font-size: 15px;
+    font-size: 30px;
 }
-hr {
-    color: 1px solid #7aa1e0;
-    
+.textSaBaba h2 {
+    text-align: center;
+    margin-top: 5px;
+    color: #f8f8f8;
+    font-size: 25px;
 }
+.textSaBaba h3 {
+    text-align: center;
+    margin-top: 5px;
+    color: #f8f8f8;
+    font-size: 20px;
+}
+
