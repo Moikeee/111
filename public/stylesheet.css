@@ -7,7 +7,7 @@ body{
 
 .navbar {
     background-color: #151c2c;
-    padding: 15px 5%;
+    padding: 20px;
     font-size: 25px;
     border-bottom: 2px solid #7aa1e0;
     justify-content: center;
@@ -16,7 +16,6 @@ body{
     height: 150px;
     width: 150px;
     justify-content: center;
-  
 }
 
 .navbar ul {
@@ -27,19 +26,60 @@ body{
     list-style-type: none;
     margin: 5px ;
     padding: 0;
-    
-    
 }
 .navbar a {
     color: rgb(255, 253, 253);
     text-decoration: none;
     padding: 14px 20px;
-    
-    
 }
 .navbar a:hover {
     color: rgb(150, 237, 255);
 }
+
+.head {
+    display: flex;
+    align-items: center;
+    padding: 60px 20px;
+    gap: 20px ;
+    
+}
+.text{
+   
+    margin-right: 100px;
+    margin-left: 50px;
+    justify-content: center;
+    
+}
+.head h1{
+    margin-top: 0%;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom:0 ;
+}
+.head h1 span{
+    font-style: italic;
+    font-size: 60px;
+    color: #b51ded;
+    text-align: left;
+}
+.head p {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 0%;
+    text-align: left;
+    margin-top: 0%;
+}
+
+
+.game {
+    width: 700px;
+    height: 300px;
+    border-right: 50px;
+    border-radius: 10px;
+    
+}
+
+
 h1 {
     text-align: center;
     margin-top: 20px;
@@ -47,12 +87,7 @@ h1 {
     font-size: 50px;
     font-weight: bold;
 }
-.Image {
-    display: block;
-    margin: 20px auto;
-    max-width: 600px;
-    height: auto;
-}
+
 h4 {
     text-align: center;
     margin-top: 5px;
@@ -72,27 +107,41 @@ p {
     color: #f8f8f8;
     font-size: 20px;
 }
-.textSaBaba  {
-    text-align: center;
-    margin-top: 20px;
-    border-top: 2px solid #7aa1e0;
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 20px;
+    padding: 10px
+
 }
-.textSaBaba h1 {
+.content{
+    background-color:#151c2c;
+    border-radius: 10px;
+    margin: 20px;
+    width: 600px;
+    border-style: solid;
+    border-color: #7aa1e0;
+    
+}
+.box h3{
+    color: #b51ded;
+    font-weight: bold;
     text-align: center;
-    margin-top: 20px;
-    color: #f8f8f8;
+    justify-content: center;
     font-size: 30px;
+    margin-bottom: 0%
+
+    
+    
 }
-.textSaBaba h2 {
-    text-align: center;
-    margin-top: 5px;
-    color: #f8f8f8;
-    font-size: 25px;
-}
-.textSaBaba h3 {
-    text-align: center;
-    margin-top: 5px;
-    color: #f8f8f8;
+.box p{
     font-size: 20px;
+    padding: 5px;
+    
+}
+.textSaBaba{
+    border: #7aa1e0;
 }
 
