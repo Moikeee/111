@@ -235,7 +235,7 @@ body {
 }
 
 /* FEATURE CARDS */
-.features {
+.features{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
@@ -243,12 +243,9 @@ body {
 
 .feature-card {
     background: #1A2741;
-
     border: 1px solid #293957;
     border-radius: 12px;
-
     overflow: hidden;
-
     transition: 0.3s;
 }
 
@@ -312,7 +309,7 @@ body {
 
 /* IMAGE CARDS */
 
-.features {
+.features.product {
     display: flex;
     justify-content: center;
     flex-wrap:wrap;
